@@ -4,7 +4,7 @@ A multimodal medical image registration method based on modal transformation.
 
 
 
-###### The environmental dependencies are listed in the requirements.txt file. The training entry point and test entry point are main.py and test.py respectively. The pre-trained parameters are stored in the weight folder. 
+###### The environmental dependencies are listed in the requirements.txt file. The training entry point and test entry point are main.py and test.py respectively. The pre-trained parameters are stored in the weight folder.
 
 ###### It should be noted that although MMARN has multiple loss functions, during training, it is only necessary to ensure that these loss functions have consistent dimensions at the initial stage. Due to the inherent flaws of GAN, the discriminator may sometimes be too strong or too weak to guide the generative model. In such cases, it is only necessary to adjust the optimization interval of the discriminator, i.e., to ensure that the loss of the discriminator and the loss of the generator are in the same dimension.
 
@@ -12,7 +12,7 @@ A multimodal medical image registration method based on modal transformation.
 
 
 
-\# Citation Information
+# Citation Information
 
 
 
